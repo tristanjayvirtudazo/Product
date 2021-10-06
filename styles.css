@@ -1,0 +1,181 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body{
+    margin: 0;
+}
+
+.links{
+    padding-left: 20px;
+    background-color: burlywood;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+
+
+#brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+.hero{
+    background-image: url("banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.content{
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+}
+
+#productList{
+    position: absolute;
+    font-size: large;
+    text-decoration: none;
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    left: 600px;
+    top: 340px;
+}
+
+.dash-line{
+    background-color: rgb(128,128,128,0.50);
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.footer-content h1{
+    margin: 0;
+    text-decoration: underline;
+    padding-left: 20px;
+    color: white;
+}
+.footer-content{
+    padding-top: 50px;
+    background-color: black;
+    padding-bottom: 50px;
+    color: white;
+}
+table{
+    margin: auto;
+    width: 1000px;
+}
+
+table a{
+    color: white;
+    text-decoration: none;
+}
+
+#contact{
+    font-size: large;
+    text-decoration: none;
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.products{
+    background-image: url("product-list.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+}
+
+.product-category{
+    font-size: large;
+    text-decoration: none;
+    background-color: burlywood;
+    color: black;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.product-links{
+    margin: auto;
+}
+
+.product-desc{
+    height: 700px;
+    display: flex;
+}
+
+.product{
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.product p{
+    width: auto;
+}
+
+.product-desc table{
+    margin: auto;
+    width: 600px;
+}
+
+.product-label{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+form textarea{
+    border-radius: 5px;
+}
+
+form input,textarea{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+form input{
+    border-style: none;
+    border-bottom: solid 1px black;
+}
+
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+form h2{
+    text-align: center;
+}
+form{
+    width: 500px;
+}
+
+td p{
+    width: 500px;
+    padding-right: 40px;
+}
+li{
+    margin-top: 15px;
+}
+
+.about-contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
